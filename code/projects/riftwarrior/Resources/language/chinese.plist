@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app_store_addr</key>
+	<string>我最近在玩时空放浪者，一起来玩啊～ 点击 －&gt; https://itunes.apple.com/cn/app/shi-kong-fang-lang-zhe/id634847542?mt=8 下载吧～</string>
+	<key>share</key>
+	<string>分享</string>
+	<key>ask_for_help</key>
+	<string>大叔我顶不住了，要怎么办啊！
+（快速猛击右上角跳动的红色按钮！）</string>
+	<key>weibo_help_words</key>
+	<string>我双膝下跪，面朝蓝天，虔诚的大喊“春哥纯爷们儿，铁血真汉子”，hp/mp恢复,获得春哥友情补助 %d 个 金币！</string>
+	<key>weibo_share_word</key>
+	<string>看着我的高分，膜拜吧～</string>
+	<key>weibo_normal_word</key>
+	<string>噢耶～</string>
+	<key>game_help_words</key>
+	<string>春哥纯爷们儿，铁血真汉子，赐予我力量吧～～
+（登陆微博向好友求助，同时获得春哥的庇护）</string>
+	<key>store_CoinsName</key>
+	<string>金币商店</string>
+	<key>store_GemsName</key>
+	<string>宝石商店</string>
+	<key>store_Gems</key>
+	<string>花费宝石 </string>
+	<key>store_waring_fai</key>
+	<string>宝石好像不够</string>
+	<key>store_waring_suc</key>
+	<string>购买金币成功</string>
+	<key>store_smallcoinsbag</key>
+	<string>一个很小的钱袋</string>
+	<key>store_normalcoinsbag</key>
+	<string>一个普通的钱袋</string>
+	<key>store_fullcoinsbag</key>
+	<string>一个满满的钱袋</string>
+	<key>store_hugecoinsbag</key>
+	<string>一个巨大的钱袋</string>
+	<key>store_gems</key>
+	<string>购买宝石</string>
+	<key>store_coins</key>
+	<string>置换金币</string>
+	<key>home_setting</key>
+	<string>设置</string>
+	<key>buy</key>
+	<string>购买</string>
+	<key>unlock_stage</key>
+	<string>解锁章节</string>
+	<key>switch_language</key>
+	<string>English</string>
+	<key>requires_gems</key>
+	<string>需要宝石</string>
+	<key>tutorial_first_time_upgrade_to_firegun</key>
+	<string>普通弓箭可升级到火枪！
+先修弓箭，然后选择右上角
+火枪图标，如左图。</string>
+	<key>leaderboard</key>
+	<string>杀戮排行榜</string>
+	<key>new_enemy</key>
+	<string>新敌人:  %s
+攻击力:
+攻击距离:  
+生命值:  
+移动速度: </string>
+	<key>needs_learning</key>
+	<string>(需学习)</string>
+	<key>forum_baidu</key>
+	<string>百度贴吧</string>
+	<key>forum_facebook</key>
+	<string>Facebook</string>
+	<key>boss_unlock_requirement</key>
+	<string>解锁需要达到三星</string>
+	<key>boss_mode</key>
+	<string>挑战Boss</string>
+	<key>normal_mode</key>
+	<string>普通模式</string>
+	<key>endless_mode</key>
+	<string>开始挑战</string>
+	<key>credits</key>
+	<string>制作人员</string>
+	<key>name_wenhaiwang</key>
+	<string>Wenhai Wang</string>
+	<key>name_junma</key>
+	<string>马俊</string>
+	<key>name_likezhang</key>
+	<string>张力柯</string>
+	<key>game_music</key>
+	<string>音乐制作</string>
+	<key>game_art</key>
+	<string>美术与动画</string>
+	<key>game_programming</key>
+	<string>程序开发</string>
+	<key>game_design</key>
+	<string>游戏设计</string>
+	<key>destroy_base</key>
+	<string>摧毁对方基地</string>
+	<key>set_unit_destination</key>
+	<string>点击道路设置战斗单位移动目的地</string>
+	<key>level_up_hint</key>
+	<string>你升级了！学得新技能:
+   </string>
+	<key>action_tap</key>
+	<string>猛击解除</string>
+	<key>passing_enemies_label</key>
+	<string>未阻止敌人：</string>
+	<key>time_out</key>
+	<string>时间到！
+你需要在%d秒内杀死所有敌人！
+注意倒计时时间！</string>
+	<key>not_enough_killed_enemies</key>
+	<string>你只杀死了%d个敌人!
+你需要杀死至少%d个敌人！</string>
+	<key>too_much_passing_enemies</key>
+	<string>一共%d个敌人抵达终点!
+你不能让超过%d个敌人到达道路尽头！</string>
+	<key>npc_is_dead</key>
+	<string>&quot;%s&quot;被敌人杀死了！
+你必须保护&quot;%s&quot;，不要让敌人靠近！</string>
+	<key>you_are_dead</key>
+	<string>你被敌人杀死了！</string>
+	<key>cannot_use_weapons</key>
+	<string>- 禁止武器：</string>
+	<key>max_time_to_finish</key>
+	<string>- %d 秒以内干掉所有敌人</string>
+	<key>min_killed_enemies</key>
+	<string>- 主角必须亲手杀死%d个敌人</string>
+	<key>max_allowed_passing_enemies</key>
+	<string>- 不能让%d个以上敌人到达道路尽头</string>
+	<key>protect_npc</key>
+	<string>- [%s]不可死亡</string>
+	<key>player_must_be_alive</key>
+	<string>- 主角不可死亡！</string>
+	<key>winning_condition</key>
+	<string>胜利条件</string>
+	<key>weapon_is_restricted</key>
+	<string>当前环境不可使用</string>
+	<key>total_killed_label</key>
+	<string>斩杀总数：</string>
+	<key>countdown_timer_label</key>
+	<string>倒计时：</string>
+	<key>get_more_gems</key>
+	<string>获得宝石</string>
+	<key>buy_iap_item</key>
+	<string>购买</string>
+	<key>you_have_gems</key>
+	<string>你现在有宝石：</string>
+	<key>buy_gems_now</key>
+	<string>更多宝石</string>
+	<key>skill_reset_prompt</key>
+	<string>重置技能点需要</string>
+	<key>not_enough_gems</key>
+	<string>宝石数量不够</string>
+	<key>stage_end_4_text_1</key>
+	<string>这是一段冒险的结束；
+这是一个传奇的开始；
+后世称为“时空霸者&quot;的传说，便从此开始。。。
+    
+    
+第一章结束</string>
+	<key>stage_1_text_3</key>
+	<string>我的故事，被后世称为“时空放浪者”的传奇，
+便这样开始了。。。</string>
+	<key>stage_1_text_2</key>
+	<string>快乐的日子总是短暂的。
+我的人生，被一个抢来的游戏彻底改变了</string>
+	<key>stage_1_text_1</key>
+	<string>我本是一个快乐的流氓，
+每天过着打砸抢混吃等死的日子。。。</string>
+	<key>start_screen_continue</key>
+	<string>继续战斗</string>
+	<key>start_screen_new_game</key>
+	<string>新的开始</string>
+	<key>slot_machine_hint</key>
+	<string>你完成奖励条件！
+来抽奖获取金币吧！</string>
+	<key>slot_machine_title_10</key>
+	<string>还不错, 你完成了十人斩！
+稍微休息一下，看看运气如何！</string>
+	<key>level_up_hp</key>
+	<string>生命 +%d</string>
+	<key>slot_machine_result</key>
+	<string>你赢得金币: </string>
+	<key>slot_machine_title</key>
+	<string>恭喜！你达到了奖励条件！
+现在你可以试试你的运气。。。</string>
+	<key>stop_slot_machine</key>
+	<string>停止</string>
+	<key>winning_info</key>
+	<string>建造武器总数
+损失武器总数
+损失率(三星要求: &lt;10%)
+本关杀戮分数</string>
+	<key>new_building_require_level</key>
+	<string>需要
+等级 %d</string>
+	<key>level_up_attack</key>
+	<string>攻 +%.2f</string>
+	<key>level_up_level</key>
+	<string>Lv +%d</string>
+	<key>worldmap_stage_summary</key>
+	<string>最大奖励经验：%d
+最大奖励金钱：%d</string>
+	<key>tip_5</key>
+	<string>新类型的武器在攻击方式和威力上具有巨大变化</string>
+	<key>tip_4</key>
+	<string>如果敌人被主角亲手杀死，主角会获得双倍经验和金钱</string>
+	<key>tip_3</key>
+	<string>主角距离敌人较近范围内可获取较多经验值</string>
+	<key>level_up_instruction</key>
+	<string>注意：如果主角距离敌人太远，
+          则无法在敌人死亡时获得
+           经验值，也无法升级。</string>
+	<key>reaching_level_4</key>
+	<string>你达到等级4！
+现在你可以修建“沥青陷阱“
+来减缓敌人速度；还可使用
+新技能：旋风斩</string>
+	<key>tip_2</key>
+	<string>武器不能在道路上修建</string>
+	<key>tip_1</key>
+	<string>主角只能在道路上移动</string>
+	<key>loading_game_data</key>
+	<string>读取游戏数据中，请稍候</string>
+	<key>tutorial_first_time_level_up</key>
+	<string>恭喜！你升级了！
+每次升级你将获得2个技能
+点。
+跟随箭头指示在右上角选
+择技能树。</string>
+	<key>tutorial_first_time_upgrade_weapon</key>
+	<string>点击武器底座可进行升级！
+升级后的武器更加强大坚固！</string>
+	<key>tutorial_less_hp</key>
+	<string>你的体力非常低！
+请离开敌人避免直接战斗，
+体力值会慢慢恢复。</string>
+	<key>tutorial_second_move_instruction</key>
+	<string>你也可以用按钮移动主角。
+请将主角移动到地图所指示
+位置。</string>
+	<key>tutorial_first_move_instruction</key>
+	<string>点击此处移动主角。</string>
+	<key>tutorial_build_missle_weapon</key>
+	<string>现在你可以修建更厉害的
+武器。请点击地图所指示
+位置。</string>
+	<key>tutorial_build_light_weapon</key>
+	<string>现在你可以修建一些简单
+武器了。请点击地图指示
+位置。注意，你只能在主
+角附近有标注位置修建武
+器，不能离开太远！</string>
+	<key>tutorial_monsters_are_coming</key>
+	<string>怪物就要过来了！
+你需要在道路上控制主角
+移动。
+主角会自动杀死靠近的敌人。</string>
+	<key>tutorial_stop_walking</key>
+	<string>我靠！这些尸体什么的是
+哪里来的？！</string>
+	<key>retry</key>
+	<string>重试</string>
+	<key>first_missle_weapon_ready</key>
+	<string>恭喜！你成功修建了投石机！
+现在你基本掌握了武器技术，
+开始战斗吧！
+记住武器升级后会更加强大！</string>
+	<key>first_light_weapon_ready</key>
+	<string>武器终于修好！
+怪物们便统统过来扑街吧！</string>
+	<key>heavy_weapon_require_level</key>
+	<string>需要
+等级4</string>
+	<key>building_info</key>
+	<string>%s
+    
+每秒伤害：%.2f    耐久度：%d</string>
+	<key>building_upgrade_info</key>
+	<string>[%s]
+%s
+伤害：%.2f=&gt;%.2f
+耐久度：%d=&gt;%d
+攻击范围：%d=&gt;%d
+耗费：%d%s</string>
+	<key>building_upgrade_cannot_repair</key>
+	<string>无法修复</string>
+	<key>building_upgrade_repair_label</key>
+	<string>修复
+$%d</string>
+	<key>game_winning_congratulation</key>
+	<string>奖励</string>
+	<key>continue</key>
+	<string>继续</string>
+	<key>resume_game</key>
+	<string>继续游戏</string>
+	<key>skill_tree_introduction</key>
+	<string>点击左边图标，查看技能</string>
+	<key>skill_tree</key>
+	<string>技能树</string>
+	<key>learn</key>
+	<string>学习</string>
+	<key>reset</key>
+	<string>重置</string>
+	<key>learn_skill</key>
+	<string>技能学习</string>
+	<key>go_back_to_worldmap</key>
+	<string>退出</string>
+	<key>close</key>
+	<string>关闭</string>
+	<key>learn_skill_skill_points_left</key>
+	<string>技能点： %d</string>
+	<key>learn_skill_by_using_gems</key>
+	<string>技能书已经没有空余的训练栏位了
+是否通过宝石来强制训练？（将会花费%d个宝石）</string>
+	<key>learn_skill_not_enough_gems</key>
+	<string>没有足够的宝石来使用其他的训练栏位
+是否先购买一些呢? ( 还差 %d 个 )</string>
+	<key>learn_skill_reaching_max_level</key>
+	<string>%s
+已到达最高等级</string>
+	<key>learn_skill_require_skill_point</key>
+	<string>%s
+    
+需要花费金币 %d 个</string>
+	<key>learn_skill_require_time</key>
+	<string>修炼耗时 : %s</string>
+	<key>learn_skill_require_gems</key>
+	<string>%s
+    
+需要花费［宝石］ %d</string>
+	<key>learn_skill_time_remains</key>
+	<string>剩余时间</string>
+	<key>your_skill</key>
+	<string>你的技能 [</string>
+	<key>train_over</key>
+	<string>] 已经修炼完毕！</string>
+	<key>skill_complete</key>
+	<string>立即完成</string>
+	<key>learn_skill_complete_now</key>
+	<string>你确定要使用 %d 个宝石
+让技能[%s]立刻修炼完毕吗？</string>
+	<key>skill_complete_not_enough</key>
+	<string>你的宝石不够了，是否要立刻购买一些？
+(要完成[%s]还差%d个宝石!)</string>
+	<key>time_style_days</key>
+	<string> 天</string>
+	<key>time_style_hours</key>
+	<string> 小时</string>
+	<key>time_style_minu</key>
+	<string> 分</string>
+	<key>time_style_sec</key>
+	<string> 秒</string>
+	<key>learn_skill_require_level</key>
+	<string>%s
+需要等级 %d</string>
+	<key>not_enough_money</key>
+	<string>你的金钱不足</string>
+	<key>require_level</key>
+	<string>等级 %d</string>
+	<key>tutorial_message_2</key>
+	<string>当年，老子就靠这两把西瓜刀杀遍全城，
+干掉无数对手。。。</string>
+	<key>tutorial_message_1</key>
+	<string>还好，老子的西瓜刀还在。</string>
+</dict>
+</plist>

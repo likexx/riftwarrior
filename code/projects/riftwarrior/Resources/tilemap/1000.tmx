@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="24" height="24" tilewidth="128" tileheight="64">
+ <tileset firstgid="1" name="3" tilewidth="128" tileheight="64">
+  <image source="3.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="background" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJytlt1VwzAMRv0EzQKlXaDQBVx402jaCyYAFuBnAWAJrqnDMY7sxME653tJ3fvZkqXEueVxie4S9YwtukI7tEe+o0fgHtA1ukHHyO/h4ROd0G1kps/XevgGtXrUWINzukHUWy9Qq8fcXqmvUmelLrpN+Es8WCPkWcizsFYsPrWWcJ/CukPG9zP7Dv/lngj3RI4FPr6Kv57O7AnfOsP4G/sSzi2cX/YGP787Vk0eKvmmXsIaYa0Mkc+zn97dVPhjTe4j89lm/3KGv2ea9G4ucqnkVMmtPkX2+zQ3JqfUu1ZNHiPzzchRjVPqXUuvkflleLRwLL1E1qezYw0z10eB3dNjLkozphc/RD5jlnq2RLjP44ypzbU17DF8ZKU9lM+1/76T0x7K51qv932hb7t+S7SyvwGLO2Jx
+  </data>
+ </layer>
+ <layer name="road_layer" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2gBGImQlgQQrMF6KSGkJ6sflDEE0NJeYL45GjtvnGNDYf3dyhYL4hEDNBsSINzMcnR4n5yO5Gx+j+oBWglvmgPIbsfmUgVmJA+IMc4ITENqLAHGLAqPlDEwAA9+cExw==
+  </data>
+ </layer>
+ <layer name="building_area" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztk1EKACAIQz1N9z9ivyFq01k/NQgi7Lk0Rb5YDWOdZHfliNhsjs4aWOyh9pH/jJfMXe2B4Ue+kX7s3u6dIXyktgz/tH8vx8rQcRW+FZupXfYPIXEVvr6DzFd13tG+VYX2glE0w526xX9JEwvgFwM=
+  </data>
+ </layer>
+ <layer name="road" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A2wIxITIn51FBDSC8+d1PLfFLkKDEfXWzUfPzxSqv0SS3zCeUrSswn1g3UMofa5QO6+bQEQ938kQoAMYcOjw==
+  </data>
+ </layer>
+ <layer name="ground" width="24" height="24">
+  <data encoding="base64" compression="zlib">
+   eJwTZBgFo2AUjIJRMApGwSgYWQAAogAAEg==
+  </data>
+ </layer>
+ <layer name="property" width="24" height="24">
+  <properties>
+   <property name="end_tile" value="12,10"/>
+   <property name="map_max_tile" value="25.5,12.5"/>
+   <property name="map_min_tile" value="0.5,11.5"/>
+   <property name="start_tiles" value="10,20"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAASD+nzZE1QAAfBkSAAAC
+  </data>
+ </layer>
+</map>

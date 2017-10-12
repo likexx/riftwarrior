@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="28" height="28" tilewidth="128" tileheight="64">
+ <tileset firstgid="1" name="map1" tilewidth="128" tileheight="64">
+  <image source="map108.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="background" width="28" height="28">
+  <data encoding="base64" compression="zlib">
+   eJy9zSWQlgEUhtHFPeAecA+4B1wWAru4BNwD7gH3gHvAPeAecA+4B9wD7jOU87Vvdva3fcsp986TlBTZ8kV4H8vysnQGtPKwFGsksJWbJVmdTRPQysUSrMYm7BjHVk4WZ1U2Zgf2iUMrB4uxChsxmb05MoZWdhZlZTZke/biCE6LopWNRViJDdiOPTmcU7k4glZWFmZF1mdb9uAwTuEibkhHKwsLsQLrsQ27cygncyHXc28arcwsyPKsy9bsxiGcxAVcxz08FdLKxAIsxzpsxa4czImcz7XczZO8HtLMz7KszZbswkGcwHlcw108wWt8EtIsw1pswc4cyPGcy9XcyeO8ysf8GNKsyeZM5QCO4xyu4g4e4xU+4gf+C2k2Ywr7cyxncyW38ygv8yHf829IK1gn9uMYzuIKbuMRXuIDvuOfNFrB+nI0Z3I5t/IwL/I+3/J3OlrBRnEGl3ELD/EC7/ENf0XQCjadS7mZB3med/maP6NoBVvCTTzAc7zDV/wRQyvYRu7nWd7mS36PQyvYPp7hLb7gtzi2gp3mTT7n1wS0gt3gM35JYCvYU37OgFawT1H8/AeeIGcx
+  </data>
+ </layer>
+ <layer name="road" width="28" height="28" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBBRgZMTGt7UCXo4V95MgNJftoGV+E7B61j3I7Bir+RsEoGAVDDwAARDYAMw==
+  </data>
+ </layer>
+ <layer name="ground" width="28" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAASD+n3bBgKoNAADAZSS/AAM=
+  </data>
+ </layer>
+ <layer name="property" width="28" height="28" opacity="0">
+  <properties>
+   <property name="end_tile" value="18,13"/>
+   <property name="environment" value="10801,8.65,10.9,  10802,16.8,14.7,  10805,21.6,18.4"/>
+   <property name="map_max_tile" value="25.25,16.25"/>
+   <property name="map_min_tile" value="2.85,12.85"/>
+   <property name="start_tiles" value="11,18"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAASD+n3bBgKoNAADAZSS/AAM=
+  </data>
+ </layer>
+ <layer name="building_area" width="28" height="28" opacity="0.7">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEKADAIwED9/6cdShdxjrTkwKFTEKQRkl6ReYbu3WZ/k4jmtCvRJHsUepeN+yDQvd4lOuTtb/5h0k8KeZkAPQ==
+  </data>
+ </layer>
+</map>

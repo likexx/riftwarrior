@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="19" height="19" tilewidth="128" tileheight="64">
+ <tileset firstgid="1" name="2" tilewidth="128" tileheight="64">
+  <image source="2.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="background" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJytlE0OAUEQhesKMz0XMJxg5gI2TuB3jQRbOzsb4QKCA7iH03AD7Hitu6JSwfTgJV+6e6b6pX4mQ1SsPCAmRLngF/VAF0zAzZ+/0Qx0wBiM1LmMBiAlV5ddY6K63Vew2n010KcPhsA4D4pA1XvxOfbvP8nGN8DU5fDIyd5JQOZ9+LnNrfbBx8Y0Qdvfywu4EM2PL3yYFrl+ZcJf58J1nsDewz5GeC3BBqze5MI9S5UX+8XCj9ct2ImcMvE+cvXRWfnoOo2H56n7VvP+uj4t6cfzNPT81hIRcyU6vPPRfjzPVz3j3EMk56l9eIZltCbXL3uP+85z/EYLen73//jvGCrXnyKlgXF3U98yRg==
+  </data>
+ </layer>
+ <layer name="road_layer" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvOAfE76hk1j8g/g/E96lk3lsgfg/EvWTo5UKjxaniIkyzOKloFjGAA43PCsSiUCxGoVvUkNjE+osLh7g6ELMhYXYc6rDZAzJTE4+d6O7UhOqRxKNHAokNC0NQ2IkhiXFhUYsNoMcBupskGYgPP2zqkM3CFb7EAmSz8IUpMQA5TkcyAABJ3gpR
+  </data>
+ </layer>
+ <layer name="ground" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJwzZhgFo2AUjIJRMFgBACVfADQ=
+  </data>
+ </layer>
+ <layer name="road" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjawHjULLqaZYyGB9It6GZR023oZlPLHGqaRS0wmM2idlwORQAAcO8EyQ==
+  </data>
+ </layer>
+ <layer name="building_area" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ALGWGhjHGoJmYOMaWUWqWZiU2tMQJ6QWdRwFz47qBFuDAyUu4nccMJmDjXdRCuzKAHUin9ks6hl3kAAAAx2CsM=
+  </data>
+ </layer>
+ <layer name="property" width="19" height="19">
+     <properties>
+         <property name="end_tile" value="10,3"/>
+         <property name="map_max_tile" value="17.5,9.5"/>
+         <property name="map_min_tile" value="0.5,9.5"/>
+         <property name="start_tiles" value="11,15"/>
+     </properties>
+  <data encoding="base64" compression="zlib">
+   eJwzZhgFo2AUjIJRMFgBACVfADQ=
+  </data>
+ </layer>
+</map>

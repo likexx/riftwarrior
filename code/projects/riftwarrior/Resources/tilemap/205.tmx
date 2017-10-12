@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="19" height="19" tilewidth="128" tileheight="64">
+ <tileset firstgid="1" name="2" tilewidth="128" tileheight="64">
+  <image source="2.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="background" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJytkz1uwkAQRu0j2PgCBsQBcIWIRAVSRMmPkja4gJYuHYIEcgEgOQBH4gqkSZ+UfCPPwLCxjW15pCfb0urt7Ddry7pflQxrshR5aqBegicAazADvYKeQLmGYAdewTinR/fxBLYgBB5ogmqOfsw+puA9ciwc7tfN4CFeuA+HcbmfQD09fsZVCzzwnl0wZ0cQg8vryBfat56D4g8MwAj4MR4/OuvlnpDzzf7vIY6c18S6zlHjGd9y/0xfB7TBBuzBhzqLzkpDva1iztnHnPR+n+ArITPJbWl4pB6Vh5B5puWfVjoPmSe9N9QZyZHnvhIyT3H9gmdwyujRPpmnuL6tKNcipfMi109Bj5TOq4xK+u/MOgNZfjSO
+  </data>
+ </layer>
+ <layer name="road_layer" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAf0KSjXeQCGUbqmqdDBfO0kNjEuE8Di5gxRLwBRHMCaTWoOMh9IQTMtEDjc0LNk2IAx6mDOJq7UkjwszGUZgViNiAWQ3JXMtScEiLM44C6CwRA7uECYhEGSNglQfUXQ+kWEtwHdFMDiBaC0iBQhEO/BBpfEo0PCnNuIBZmgIRXIZHuAPkLPe+IQ9zEYATlg8KrkYB5uPIfyF0wt3MQ5yRc5h8Qp0A/OlAjrIRoQC13SVHRLGIBAClBDYA=
+  </data>
+ </layer>
+ <layer name="ground" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJwzZhgFo2AUjIJRMFgBACVfADQ=
+  </data>
+ </layer>
+ <layer name="road" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxzYhgFIxE4DTKznJAwNcyiFhg1a9QsWppFDAAAdVsD3w==
+  </data>
+ </layer>
+ <layer name="building_area" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwx04QTEDEk2JWdQwB2YGstuoAZywsMkxH91dlLoVm7vIBdSOA2xsSs0crH4cigAA2RQG9w==
+  </data>
+ </layer>
+ <layer name="property" width="19" height="19">
+  <properties>
+   <property name="end_tile" value="10,16"/>
+   <property name="map_max_tile" value="17.5,9.5"/>
+   <property name="map_min_tile" value="0.5,9.5"/>
+   <property name="start_tiles" value="12,6"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJwzZhgFo2AUjIJRMFgBACVfADQ=
+  </data>
+ </layer>
+</map>

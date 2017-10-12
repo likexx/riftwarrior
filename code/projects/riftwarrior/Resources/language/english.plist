@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>game_help_words</key>
+	<string>Damn! I got to share the screen and ask for help on Facebook...</string>
+	<key>weibo_normal_word</key>
+	<string>Hey! I&apos;m having an intense battle in &quot;Rift Warrior&quot;
+ 
+</string>
+	<key>weibo_share_word</key>
+	<string>I WON the battle in &quot;Rift Warrior&quot;!!!!!
+   
+</string>
+	<key>weibo_help_words</key>
+	<string>I&apos;m playing &quot;Rift Warrior&quot;. Help me! Power Upppp!!!, HP/MP restored, received %d coins！</string>
+	<key>app_store_addr</key>
+	<string>https://itunes.apple.com/us/app/rift-warrior/id634847542?ls=1&amp;mt=8</string>
+	<key>share</key>
+	<string>share</string>
+	<key>ask_for_help</key>
+	<string>Please Help Me!</string>
+	<key>store_CoinsName</key>
+	<string>Coins Store</string>
+	<key>store_GemsName</key>
+	<string>Gems Store</string>
+	<key>store_Gems</key>
+	<string>Cost Gems </string>
+	<key>store_waring_suc</key>
+	<string>Deal Success</string>
+	<key>store_waring_fai</key>
+	<string>Gems is not enough</string>
+	<key>store_normalcoinsbag</key>
+	<string>a normal coinbag</string>
+	<key>store_smallcoinsbag</key>
+	<string>a small coinbag</string>
+	<key>store_fullcoinsbag</key>
+	<string>a full coinbag</string>
+	<key>store_hugecoinsbag</key>
+	<string>a huge coinbag</string>
+	<key>store_gems</key>
+	<string>Get Gems</string>
+	<key>store_coins</key>
+	<string>Get Coins</string>
+	<key>home_setting</key>
+	<string>Settings</string>
+	<key>buy</key>
+	<string>buy</string>
+	<key>unlock_stage</key>
+	<string>unlock chapter</string>
+	<key>endless_mode</key>
+	<string>Challenge!</string>
+	<key>switch_language</key>
+	<string>简体中文</string>
+	<key>requires_gems</key>
+	<string>requires gems</string>
+	<key>tutorial_first_time_upgrade_to_firegun</key>
+	<string>Regular arrow can be upgraded 
+to firegun!
+Build arrow first, then select 
+top right icon for firegun!</string>
+	<key>leaderboard</key>
+	<string>Killer Rankings</string>
+	<key>new_enemy</key>
+	<string>New Enemy:  %s
+Attack: 
+Attack Range: 
+HP: 
+Speed: </string>
+	<key>needs_learning</key>
+	<string>(To Learn)</string>
+	<key>forum_baidu</key>
+	<string>百度贴吧</string>
+	<key>boss_unlock_requirement</key>
+	<string>3 stars to unlock</string>
+	<key>boss_mode</key>
+	<string>Kill Boss</string>
+	<key>normal_mode</key>
+	<string>Normal</string>
+	<key>forum_facebook</key>
+	<string>Facebook</string>
+	<key>credits</key>
+	<string>Credits</string>
+	<key>name_wenhaiwang</key>
+	<string>Wenhai Wang</string>
+	<key>name_junma</key>
+	<string>Jun Ma</string>
+	<key>name_likezhang</key>
+	<string>Like Zhang</string>
+	<key>game_music</key>
+	<string>Music</string>
+	<key>game_art</key>
+	<string>Art</string>
+	<key>game_programming</key>
+	<string>Programming</string>
+	<key>game_design</key>
+	<string>Game Design</string>
+	<key>destroy_base</key>
+	<string>Destroy the enemy base!</string>
+	<key>set_unit_destination</key>
+	<string>tap on the road to set the destination for units</string>
+	<key>level_up_hint</key>
+	<string>Level Up!
+Now you learned:
+</string>
+	<key>action_tap</key>
+	<string>TAP!</string>
+	<key>passing_enemies_label</key>
+	<string>Missing Enemies:</string>
+	<key>time_out</key>
+	<string>Time out!
+You should kill all enemies within %d seconds!
+Watch the countdown timer!</string>
+	<key>not_enough_killed_enemies</key>
+	<string>You killed only %d enemies...
+Come on, you should kill at least %d !</string>
+	<key>too_much_passing_enemies</key>
+	<string>%d enemies reaching the end...
+You shouldn&apos;t let more than %d enemies passing!</string>
+	<key>npc_is_dead</key>
+	<string>[%s] is dead...
+Please keep [%s] alive!</string>
+	<key>you_are_dead</key>
+	<string>You are dead!
+Please keep player alive!</string>
+	<key>cannot_use_weapons</key>
+	<string>- Restricted weapons:</string>
+	<key>max_time_to_finish</key>
+	<string>- Kill all enemies within %d seconds</string>
+	<key>min_killed_enemies</key>
+	<string>- Player must kill %d enemies</string>
+	<key>max_allowed_passing_enemies</key>
+	<string>- Cannot let %d enemies reaching the road end</string>
+	<key>protect_npc</key>
+	<string>- Keep [%s] alive</string>
+	<key>player_must_be_alive</key>
+	<string>- Player must be alive</string>
+	<key>winning_condition</key>
+	<string>Winning Condition</string>
+	<key>weapon_is_restricted</key>
+	<string>Restricted</string>
+	<key>total_killed_label</key>
+	<string>Enemies Killed:</string>
+	<key>countdown_timer_label</key>
+	<string>Countdown:</string>
+	<key>get_more_gems</key>
+	<string>Buy Gems</string>
+	<key>buy_iap_item</key>
+	<string>Buy Now!</string>
+	<key>you_have_gems</key>
+	<string>You have gems:</string>
+	<key>buy_gems_now</key>
+	<string>MORE GEMS</string>
+	<key>skill_reset_prompt</key>
+	<string>Skill reset costs:</string>
+	<key>not_enough_gems</key>
+	<string>Not enough gems</string>
+	<key>stage_1_text_3</key>
+	<string>Then my story starts.
+People call it &quot;The beginning of Rift Warrior&quot;.</string>
+	<key>stage_1_text_2</key>
+	<string>Happy days never last long.
+My life was changed forever after robbing
+a game.</string>
+	<key>stage_1_text_1</key>
+	<string>Listen to my story.
+I was once a happy gangster on street.</string>
+	<key>stage_end_4_text_1</key>
+	<string>This is the end;
+This is the beginning;
+This is the beginning of &quot;Rift Lord&quot;...
+    
+    
+Chapter 1 ends</string>
+	<key>start_screen_continue</key>
+	<string>Continue</string>
+	<key>start_screen_new_game</key>
+	<string>New Game</string>
+	<key>slot_machine_hint</key>
+	<string>Award requirments completed!
+Try your luck and get coins!</string>
+	<key>slot_machine_title_10</key>
+	<string>Not bad! You killed tens of enemies！
+Let&apos;s take a break. Try your luck here!</string>
+	<key>level_up_hp</key>
+	<string>HP +%d</string>
+	<key>slot_machine_result</key>
+	<string>You have won coins: </string>
+	<key>slot_machine_title</key>
+	<string>Great! You completed the requirements!
+Now you can play the slot machine to try your luck!</string>
+	<key>stop_slot_machine</key>
+	<string>STOP</string>
+	<key>winning_info</key>
+	<string>Weapons Built
+Weapons Destroyed
+Lose Rate(3 Stars:&lt;10)
+Killer Score</string>
+	<key>new_building_require_level</key>
+	<string>Require
+Level %d</string>
+	<key>level_up_attack</key>
+	<string>Attack +%.2f</string>
+	<key>level_up_level</key>
+	<string>Level +%d</string>
+	<key>worldmap_stage_summary</key>
+	<string>Max Award Exp:%d
+Max Award Money: %d</string>
+	<key>tip_5</key>
+	<string>Upgraded weapons have significant improvent 
+in attack power.</string>
+	<key>tip_4</key>
+	<string>Player can get double experience and money 
+by killing enemies himself.</string>
+	<key>tip_3</key>
+	<string>Player can get more experience by staying closer 
+to enemy</string>
+	<key>level_up_instruction</key>
+	<string>Attention: Player can NOT get 
+                 any experience if he 
+                 is far away from the 
+                 dead enemies.</string>
+	<key>reaching_level_4</key>
+	<string>Great! You reached Level 4!!
+Now you can build &quot;Mud Machine&quot;
+to slow down enemies and use
+new skill: whirlwind !</string>
+	<key>tip_2</key>
+	<string>Weapons can only be built ouside of the road</string>
+	<key>tip_1</key>
+	<string>Player cannot move outside of the road</string>
+	<key>loading_game_data</key>
+	<string>Loading game data. Please wait...</string>
+	<key>tutorial_first_time_level_up</key>
+	<string>Congratulation!You leveled up!
+You get 2 skill points for each level!
+Follow the arrow and open the skill
+tree menu.</string>
+	<key>tutorial_first_time_upgrade_weapon</key>
+	<string>Tap the weapon and upgrade it!
+The weapon will be more powerful!</string>
+	<key>tutorial_less_hp</key>
+	<string>Your health is too low!
+You&apos;ll die if your health is reaching 0.
+Move the player away from the enemy 
+and your will get your hp recovered.</string>
+	<key>tutorial_second_move_instruction</key>
+	<string>You can also use the button to move player.
+Move player to the position pointed by the arrow.</string>
+	<key>tutorial_first_move_instruction</key>
+	<string>Click here to move player</string>
+	<key>tutorial_build_missle_weapon</key>
+	<string>Now you can build weapons 
+with large attack range.
+Follow the arrow and click 
+on the map to build.</string>
+	<key>tutorial_build_light_weapon</key>
+	<string>Now you can build weapons.
+Remember, you can only build 
+weapons on the marked areas
+around the player. </string>
+	<key>tutorial_monsters_are_coming</key>
+	<string>Monsters are coming!
+You need to move player around.
+The player will attack nearby 
+monsters automatically.</string>
+	<key>tutorial_stop_walking</key>
+	<string>WTH!Where are these bodies coming from?
+I must be careful.</string>
+	<key>retry</key>
+	<string>Retry</string>
+	<key>first_missle_weapon_ready</key>
+	<string>Congratulation! You build Catapult!
+Now you have learned basic skills. 
+Feel free to fight! 
+And don&apos;t forget upgrade your 
+weapons!</string>
+	<key>first_light_weapon_ready</key>
+	<string>Weapon ready! 
+Come on monsters!</string>
+	<key>heavy_weapon_require_level</key>
+	<string>Require
+Level 4</string>
+	<key>building_info</key>
+	<string>%s
+    
+DPS:%.2f   Endurance:%d</string>
+	<key>building_upgrade_info</key>
+	<string>[%s]
+%s
+Damage:%.2f=&gt;%.2f
+Endurance:%d=&gt;%d
+Range:%d=&gt;%d
+Cost:%d%s</string>
+	<key>building_upgrade_cannot_repair</key>
+	<string>Not Repairable</string>
+	<key>building_upgrade_repair_label</key>
+	<string>Repair
+$%d</string>
+	<key>game_winning_congratulation</key>
+	<string>Award</string>
+	<key>continue</key>
+	<string>Continue</string>
+	<key>resume_game</key>
+	<string>Resume</string>
+	<key>skill_tree_introduction</key>
+	<string>Click the icons on the 
+left to learn/upgrade 
+different skills.</string>
+	<key>skill_tree</key>
+	<string>Skill Tree</string>
+	<key>learn</key>
+	<string>learn</string>
+	<key>reset</key>
+	<string>reset</string>
+	<key>learn_skill</key>
+	<string>Learn Skill</string>
+	<key>go_back_to_worldmap</key>
+	<string>Exit</string>
+	<key>close</key>
+	<string>Close</string>
+	<key>learn_skill_skill_points_left</key>
+	<string>Skill Points: %d</string>
+	<key>learn_skill_reaching_max_level</key>
+	<string>%s
+Reaching max level</string>
+	<key>learn_skill_require_skill_point</key>
+	<string>%s
+    
+Require Coins:%d</string>
+	<key>learn_skill_require_time</key>
+	<string>Require Time : %s</string>
+	<key>learn_skill_require_gems</key>
+	<string>%s
+    
+Require ［Gems］:%d</string>
+	<key>learn_skill_by_using_gems</key>
+	<string>There is no empty slots for training,
+but you can spend %d gems for an extra one.</string>
+	<key>learn_skill_not_enough_gems</key>
+	<string>You don&apos;t have enough gems for extra slot.
+Wanna buy some? (you need %d gems)</string>
+	<key>learn_skill_require_level</key>
+	<string>%s
+Require level: %d</string>
+	<key>learn_skill_time_remains</key>
+	<string>Time Remains</string>
+	<key>your_skill</key>
+	<string>Your skill [</string>
+	<key>skill_complete</key>
+	<string>Complete Now!</string>
+	<key>learn_skill_complete_now</key>
+	<string>Using %d gems to finish
+training [%s] now?</string>
+	<key>skill_complete_not_enough</key>
+	<string>Not enough gems, wanna buy some?
+(Finishing [%s] requires %d gems)</string>
+	<key>train_over</key>
+	<string>] has upgraded!</string>
+	<key>not_enough_money</key>
+	<string>not enough money</string>
+	<key>time_style_days</key>
+	<string> D</string>
+	<key>time_style_hours</key>
+	<string> H</string>
+	<key>time_style_minu</key>
+	<string> M</string>
+	<key>time_style_sec</key>
+	<string> S</string>
+	<key>require_level</key>
+	<string>Lv.%d</string>
+	<key>tutorial_message_2</key>
+	<string>These blades used to help me build my
+honor among my buddies...</string>
+	<key>tutorial_message_1</key>
+	<string>Well, at least my kick-ass blades are still with me...</string>
+</dict>
+</plist>
