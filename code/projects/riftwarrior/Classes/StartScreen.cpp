@@ -50,7 +50,7 @@ StartScreen* StartScreen::createNewScreen()
     label->setString(GameData::getText("home_setting"));
     node->settingButton->addTargetWithActionForControlEvents(node, cccontrol_selector(StartScreen::openMenu), CCControlEventTouchDown);
     
-    string copyright = "Copyright KK Game Studios 2014\n";
+    string copyright = "MIT Licensed by Like Zhang, 2017\n";
     node->m_pCopyrightLabel->setString(( copyright + SystemHelper::getVersionInfo() ).c_str());
     node->m_pCopyrightLabel->setFontSize(16);
     node->m_pCopyrightLabel->setHorizontalAlignment(kCCTextAlignmentCenter);
