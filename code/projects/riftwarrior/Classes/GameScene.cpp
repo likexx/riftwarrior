@@ -179,10 +179,6 @@ void GameScene::loadStageMap(int mapId, bool isNormalStage)
 
     setupPlayScreen(mapId, isNormalStage);
     
-    char key[64]= {0};
-    sprintf(key, "map_%d", mapId);
-    
-    
 //    CCDirector::sharedDirector()->pushScene(sharedScene);
 
         // only load OP for the 1st map in each stage
@@ -215,9 +211,6 @@ void GameScene::exitStageMap()
     sharedGameStage = NULL;
 
 //    loadStageEndingAnimation(mapId);
-    char key[64]= {0};
-    sprintf(key, "map_%d", mapId);
-    
     sharedMainUI->showWorldMap();
 }
 
