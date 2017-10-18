@@ -275,7 +275,6 @@ void GameWinningMenu::showButtons()
     // same as experience update. Money bonus animation is just done here.
     Player::getInstance()->updateMoney(pConfig->bonusMoney * (1-loseRate));
 
-
     m_pCloseBtn->setVisible(true);
 //    m_pShareBtn->setVisible(true);
     
@@ -459,7 +458,6 @@ void GameWinningMenu::gotoWorldMap(cocos2d::CCObject *pSender)
 
     Player::getInstance()->save();
     
-    
     int stageId = GameScene::getInstance()->sharedGameStage->getMapId();
     int score = Player::getInstance()->getMapScore(stageId);
     starCount = 0;
@@ -470,6 +468,9 @@ void GameWinningMenu::gotoWorldMap(cocos2d::CCObject *pSender)
     }else if(score >= 90){
         starCount = 3;
     }
+    
+    Player::getInstance()->updateGems(starCount);
+    Player::getInstance()->save();
     
     if (GameScene::getInstance()->sharedGameStage->matchWinningCondition() && starCount >= 2)
     {
