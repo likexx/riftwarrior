@@ -24,22 +24,27 @@ EnemyAttackComponent::~EnemyAttackComponent()
     if (m_Bullets)
     {
         delete m_Bullets;
+        m_Bullets = NULL;
     }
     
     if (m_pHitSprite)
     {
-        m_pHitSprite->stopAllActions();
+        if (m_pHitSprite->getActionManager())
+            m_pHitSprite->stopAllActions();
+
         if (m_pHitSprite->getParent() != NULL)
         {
             m_pHitSprite->removeFromParentAndCleanup(true);
         }
         
         m_pHitSprite->release();
+        m_pHitSprite = NULL;
     }
     
     if (m_pHitAction)
     {
         m_pHitAction->release();
+        m_pHitAction = NULL;
     }
 }
 
@@ -54,6 +59,9 @@ bool EnemyAttackComponent::init()
     
     m_RandSeed = rand();
     m_IdleTime = 10;
+    
+    m_pHitSprite = NULL;
+    m_pHitAction = NULL;
     //    this->scheduleUpdate();
     return true;
 }
@@ -61,35 +69,33 @@ bool EnemyAttackComponent::init()
 void EnemyAttackComponent::setupAnimation(int id)
 {
     // setup hit effect animation
-    /*
-    m_pHitSprite = CCSprite::createWithSpriteFrameName("hit_effect_1_1.png");
-    m_pHitSprite->retain();
-    m_pHitSprite->setOpacity(128);
-    
-    CCArray* frames = CCArray::createWithCapacity(2);
-    
-    char buffer[128] = {0};
-    const int maxFrameNumber = 8;
-    
-    for(int i=0;i<maxFrameNumber;++i)
-    {
-        sprintf(buffer, "hit_effect_%d_%d.png", 1,i+1);
-        CCSpriteFrame* frame = CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName(buffer);
-        if (!frame)
-        {
-            break;
-        }
-        
-        frames->addObject(frame);
-    }
-    
-    CCAnimation* animation = CCAnimation::createWithSpriteFrames(frames, 0.1f/frames->count());
-    
-    CCAnimate* animate = CCAnimate::create(animation);
-    animate->retain();
-    
-    m_pHitAction = animate;
-    */
+//    m_pHitSprite = CCSprite::createWithSpriteFrameName("hit_effect_1_1.png");
+//    m_pHitSprite->retain();
+//    m_pHitSprite->setOpacity(128);
+//
+//    CCArray* frames = CCArray::createWithCapacity(2);
+//
+//    char buffer[128] = {0};
+//    const int maxFrameNumber = 8;
+//
+//    for(int i=0;i<maxFrameNumber;++i)
+//    {
+//        sprintf(buffer, "hit_effect_%d_%d.png", 1,i+1);
+//        CCSpriteFrame* frame = CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName(buffer);
+//        if (!frame)
+//        {
+//            break;
+//        }
+//
+//        frames->addObject(frame);
+//    }
+//
+//    CCAnimation* animation = CCAnimation::createWithSpriteFrames(frames, 0.1f/frames->count());
+//
+//    CCAnimate* animate = CCAnimate::create(animation);
+//    animate->retain();
+//
+//    m_pHitAction = animate;
 }
 
 bool EnemyAttackComponent::trySetTarget(AttackableObject *pTarget)

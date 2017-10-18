@@ -121,12 +121,14 @@ Enemy::~Enemy()
     if (pAnimation)
     {
         pAnimation->clear();
-        pAnimation->removeFromParentAndCleanup(true);
+        pAnimation->removeFromParent();
+        pAnimation = NULL;
     }
     
     if (m_pAttackComponent)
     {
-        m_pAttackComponent->removeFromParentAndCleanup(true);
+        m_pAttackComponent->removeFromParent();
+        m_pAttackComponent = NULL;
     }
     
 }
