@@ -4,6 +4,8 @@
 The original game can be downloaded from the link: [Rift Warrior at AppStore](https://itunes.apple.com/app/id634847542). <br/><br/>
 **Preview GamePlay Video on Youtube**
 [![GamePlay Video](https://raw.githubusercontent.com/likexx/riftwarrior/master/screenshot.jpg)](http://www.youtube.com/watch?v=ttRaKQFSFJs) <br/><br/>
+**Preview Game Introduction Video on Tudou(For China)**
+[![GamePlay Video](https://raw.githubusercontent.com/likexx/riftwarrior/master/tudou_screenshot.jpg)](http://video.tudou.com/v/XODA0MDk2MTYw.html?spm=a2h0k.8191414.0.0&from=s1.8-1-1.2&f=22077663) <br/><br/>
 All account specific logic&data have been removed, such as In-App-Purchase, Google Ads, Social Network Sharing, and Flurry tracking. All others remain the same.
 
 ## Current Issues
