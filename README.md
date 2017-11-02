@@ -8,9 +8,6 @@ The original game can be downloaded from the link: [Rift Warrior at AppStore](ht
 [![GamePlay Video](https://raw.githubusercontent.com/likexx/riftwarrior/master/tudou_screenshot.jpg)](http://video.tudou.com/v/XODA0MDk2MTYw.html?spm=a2h0k.8191414.0.0&from=s1.8-1-1.2&f=22077663) <br/><br/>
 All account specific logic&data have been removed, such as In-App-Purchase, Google Ads, Social Network Sharing, and Flurry tracking. All others remain the same.
 
-## Current Issues
-* On my 2015 Mackbook Pro (8GB), it runs extremely slow on XCode 9 simulator (but runable), and may cause occational crash. On a 2015 iMac with 16G memory, everything seems fine. So try it yourself on a better dev machine.
-
 ## Build and Run in Xcode
 Use the latest Xcode (tested with Xcode 9) and open:  **code/projects/riftwarrior/proj.ios/riftwarrior.xcodeproj**
 
