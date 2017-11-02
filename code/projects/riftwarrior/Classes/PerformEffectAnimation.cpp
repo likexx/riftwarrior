@@ -83,7 +83,7 @@ void PerformEffectAnimation::update(float dt)
 
 void PerformEffectAnimation::attackEnemies()
 {
-//    SimpleAudioEngine::sharedEngine()->playEffect("wav/explode_1.wav");
+    SimpleAudioEngine::sharedEngine()->playEffect("wav/explode_1.wav");
     
     AttackableObject* target = NULL;
     CCArray* targets = GameScene::getInstance()->sharedGameStage->enemies;

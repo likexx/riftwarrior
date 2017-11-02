@@ -59,8 +59,8 @@ void BuildingManager::removeAllBuildings()
     {
         Building* pBuilding = static_cast<Building*>(pObj);
 		pBuilding->remove();
-		delete pBuilding;
     }
+    buildingArray->removeAllObjects();
 }
 
 bool BuildingManager::hasBuilding(int x, int y)

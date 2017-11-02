@@ -75,7 +75,7 @@ void BuildingRocketAttackComponent::playerFireSound()
     char buffer[128] = {0};
     sprintf(buffer, "sound/building_%d_fire.mp3", pBuilding->getId());
     // FIXME
-    //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(buffer);
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(buffer);
 }
 
 CCPoint BuildingRocketAttackComponent::getTargetPosition(cocos2d::CCPoint currentMapPos, float degree)

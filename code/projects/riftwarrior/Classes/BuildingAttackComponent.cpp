@@ -224,7 +224,7 @@ void BuildingAttackComponent::playAttackAnimation()
     char buffer[128] = {0};
     sprintf(buffer, "sound/building_%d_fire.mp3", building->getId());
     // FIXME
-    //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(buffer);
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(buffer);
 
     //    pRotatingPart->runAction(m_AnimationActions[m_Quadrant]);
     //    pRotatingPart->scheduleUpdate();
@@ -617,7 +617,7 @@ void BuildingAttackComponent::damageEnemy(CCNode* pBullet)
         char buffer[128] = {0};
         sprintf(buffer, "sound/building_%d_bullet_explosion.mp3", pBuilding->getId());
         // FIXME
-        //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(buffer);
+        CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(buffer);
     }
     
     switch (pBuilding->getDamageType())

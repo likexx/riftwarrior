@@ -192,7 +192,7 @@ void PlayerAttackComponent::startAttack()
     char name[64] = {0};
     sprintf(name, "sound/player_attack%d.mp3", rand()%3 + 1);
     // FIXME
-    //SimpleAudioEngine::sharedEngine()->playEffect(name);
+    SimpleAudioEngine::sharedEngine()->playEffect(name);
 }
 
 void PlayerAttackComponent::hurtTarget(CCNode* pBullet)

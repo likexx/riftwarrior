@@ -71,7 +71,7 @@ void Enemy::initialize(int id, int parentId)
     m_RandSeed = rand();
     
     m_Team = ENUM_TEAM_COMPUTER;
-    
+    m_pAttackComponent = NULL;
     // if there is no computer player, enemies become the opponents
     
     m_DestinationTile = GameScene::getInstance()->sharedGameStage->getGroundMap()->getEndTilePosition();
@@ -807,7 +807,7 @@ void Enemy::actWhenAttacked(AttackableObject *pTarget)
         return;
     }
     
-    if (!m_pAttackComponent->trySetTarget(pTarget))
+    if (m_pAttackComponent && !m_pAttackComponent->trySetTarget(pTarget))
     {
         return;
     }

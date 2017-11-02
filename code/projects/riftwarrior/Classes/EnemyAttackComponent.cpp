@@ -482,7 +482,7 @@ void EnemyAttackComponent::startAttack()
     if (pEnemy->getEnemySetting()->attackType == ENUM_ENEMY_ATTACK_SHOCK_WAVE)
     {
         // FIXME
-        //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/shockwave.mp3");
+        CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/shockwave.mp3");
     }
     
 //    hurtTarget(NULL);
@@ -496,7 +496,7 @@ void EnemyAttackComponent::playAttackSound()
     char soundPath[128] = {0};
     sprintf(soundPath, "sound/enemy_%d_attack.mp3", pEnemy->getId());
     // FIXME
-    //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(soundPath, false);
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect(soundPath, false);
 }
 
 void EnemyAttackComponent::shootBullet(void* pObject)
@@ -555,7 +555,7 @@ void EnemyAttackComponent::shootBullet(void* pObject)
     float dy = targetMapPos.y - currentMapPos.y;
     float distance = sqrt(dx*dx + dy*dy);
     
-     //    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("shoot.wav");
+     CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("shoot.wav");
     
     float duration = distance/pEnemy->getEnemySetting()->attackSpeed;
 
@@ -742,7 +742,7 @@ void EnemyAttackComponent::makeSingleTargetDamage(CCNode* pBullet)
     
     if ((pBullet && bulletHitTarget(pBullet->getPosition(), selectedTarget->getAttackablePosition())) || !pBullet)
     {
-        //            CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/hit_building.wav");
+        CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/hit_building.wav");
         
         showExplosion(pBullet);
         

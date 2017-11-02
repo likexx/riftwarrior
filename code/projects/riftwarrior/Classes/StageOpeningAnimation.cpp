@@ -112,7 +112,7 @@ void StageOpeningAnimation::playStageSound(float dummyParameter = 0.0f)
 {
     unschedule(schedule_selector(StageOpeningAnimation::playStageSound));
     // FIXME
-    //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/building_5_bullet_explosion.mp3");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/building_5_bullet_explosion.mp3");
 }
 
 void StageOpeningAnimation::playStageBackgroundMusic()

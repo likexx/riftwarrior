@@ -486,7 +486,7 @@ bool Player::performSkill(int id)
     {
         case ENUM_PLAYER_PERFORM_SKILL_EARTH_SLASH:
             // FIXME
-            //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/start_earthslash.mp3");
+            CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/start_earthslash.mp3");
             m_pAnimation->setAnimationWithCallback(skillAnimDirection, CCCallFunc::create(this, callfunc_selector(Player::performEarthSlash)));
             break;
         case ENUM_PLAYER_PERFORM_SKILL_RECOVER:
@@ -545,7 +545,7 @@ void Player::performRecovery()
     m_pAnimation->addChild(pAnimation);
 
     // FIXME
-    //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/cure.mp3");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/cure.mp3");
 
     runAction((CCActionInterval*)CCSequence::create(CCDelayTime::create(0.2f),
                                                     CCCallFunc::create(this, callfunc_selector(Player::resetToPrevAnimation)),
@@ -661,7 +661,7 @@ void Player::showEarthSlashSprite(CCObject * pObject)
     GameScene::getInstance()->sharedGameStage->getGroundMap()->addChild(pSkillSprite);
     
     // FIXME
-    //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/earthslash.mp3");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/earthslash.mp3");
     
     pSkillSprite->runAction(
 		(CCActionInterval*)CCSequence::create(
@@ -779,7 +779,7 @@ void Player::startWhirlWind()
     showSkillNameAnimation(m_PerformingSkillType);
 
     // FIXME
-    //CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/start_whirlwind.mp3");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("sound/start_whirlwind.mp3");
 }
 
 void Player::stopWhirlWind()
